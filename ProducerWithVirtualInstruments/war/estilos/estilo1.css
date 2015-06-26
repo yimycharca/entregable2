@@ -1,0 +1,33 @@
+@CHARSET "ISO-8859-1";
+html{   
+	background:url(/imagenes/fondo.jpg) no-repeat;
+  	background-size: cover;
+  	height:100%;
+}
+#bar{
+	background-size: cover;
+}
+#boton{
+	
+	
+	width: 14%;
+	border: #A9A9A9 solid 4px;
+	cursor:pointer;
+	background-color: black;
+	color:white;
+	font-size:25px;
+	padding-top:6px;
+	padding-bottom:6px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+    margin-top:-4px;
+  	font-weight:400;
+}
+#boton:hover {
+	background-color:#DFDFDF;
+	color: #0493bd;
+}
+#trademark{
+	color:#ff0000;
+}
